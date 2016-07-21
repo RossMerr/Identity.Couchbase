@@ -1,0 +1,5 @@
+src/Identity.Couchbase/node_modules/*
+src/Identity.Couchbase/bin/*
+src/Identity.Couchbase/obj/*
+*.lock.json
+.vs/*
