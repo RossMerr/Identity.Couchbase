@@ -17,7 +17,7 @@ namespace Identity.Couchbase
 
         public static string ConvertUserToId(this IUser user, ILookupNormalizer lookupNormalizer) 
         {
-            return ConvertEmailToId(user.Email, lookupNormalizer);
+            return ConvertEmailToId(user.Username ?? user.Email, lookupNormalizer);
         }
 
         public static string ConvertRoleToId(this IRole user, ILookupNormalizer lookupNormalizer)
