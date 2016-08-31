@@ -5,8 +5,8 @@
   "dependencies": {
     "NETStandard.Library": "1.6.0",
     "Microsoft.AspNetCore.Identity": "1.0.0",
-    "CouchbaseCore": "1.0.4",
-    "Couchbase.Linq": "1.0.9"
+    "CouchbaseCore": "1.0.23",
+    "Couchbase.Linq": "1.0.10"
   },
   "frameworks": {
     "netstandard1.6": {
